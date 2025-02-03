@@ -1,0 +1,149 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.logo {
+    display: flex;
+    height: 40px;
+}
+
+.header-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.language-selector {
+    background: black;
+    color: white;
+    padding: 5px;
+    border: 1px solid white;
+    margin-right: 15px;
+}
+
+.signin-btn {
+    background: red;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.bg {
+    background: url('https://assets.nflxext.com/ffe/siteui/vlv3/fb5cb900-0cb6-4728-beb5-579b9af98fdd/web/PK-en-20250127-TRIFECTA-perspective_217df22c-add3-44dc-859a-686d5f6f5026_large.jpg') center/cover;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    color: white;
+    padding: 100px 20px;
+    
+}
+
+.hero-content h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 20px;
+}
+
+.email-form {
+    margin-top: 20px;
+}
+
+.email-form input {
+    padding: 10px;
+    width: 250px;
+}
+
+.email-form button {
+    padding: 10px 15px;
+    background: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Features Section */
+.features {
+    background-color: black;
+    color: white;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Trending Section */
+.trending-section {
+    margin-bottom: 40px;
+}
+
+.trending-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.trending-container {
+    display: flex;
+    gap: 10px;
+}
+
+.trending-card {
+    width: 150px;
+    height: 220px;
+    background-color: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    border-radius: 8px;
+    position: relative;
+}
+
+.trending-card span {
+    position: absolute;
+    left: -10px;
+    bottom: 10px;
+    font-size: 60px;
+    font-weight: bold;
+    text-shadow: 2px 2px 8px black;
+    color: white;
+}
+
+
+
+/* Footer */
+.footer {
+    background: black;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+.footer-links a {
+    display: block;
+    color: white;
+    margin: 5px 0;
+}
