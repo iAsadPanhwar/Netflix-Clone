@@ -53,7 +53,7 @@
     text-align: center;
     color: white;
     padding: 100px 20px;
-    
+
 }
 
 .hero-content h1 {
@@ -105,7 +105,19 @@
 
 .trending-container {
     display: flex;
-    gap: 10px;
+    gap: 27px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    position: relative;
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: visible;
+    margin: 0;
+    padding: 0;
+    scrollbar-width: none;
+    scroll-snap-type: x mandatory;
+    scroll-margin-inline-start: 2.5em;
 }
 
 .trending-card {
@@ -115,21 +127,74 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 50px;
-    font-weight: bold;
-    color: white;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
     border-radius: 8px;
     position: relative;
+    font-size: 6.25rem;
+    cursor: pointer;
+
+    /* line-height: 1;
+  display: inline-block;
+  height: 1em;
+  position: relative;
+  font-weight: 700;
+  color: rgb(65,65,65);
+  -webkit-text-stroke: 0.25rem rgb(255,255,255);
+  text-shadow: 0 0 1.5rem rgba(0,0,0,0.5); */
 }
 
 .trending-card span {
-    position: absolute;
-    left: -10px;
-    bottom: 10px;
-    font-size: 60px;
-    font-weight: bold;
-    text-shadow: 2px 2px 8px black;
-    color: white;
+    line-height: 1;
+  display: inline-block;
+  height: 1em;
+  position: absolute;
+  font-weight: 800;
+  color: rgb(19, 12, 12);
+  -webkit-text-stroke: 0.1rem rgb(255, 255, 255);
+  text-shadow: 0 0 5rem rgba(0, 0, 0, 0.2);
+  left: -21px;
+  bottom: 8px;
+}
+
+.trending-card1 {
+    background-image: url(https://occ-0-1241-58.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABZMosKxdFgxev7W1YxooOu2wL_Kc3LwyYduCJ8nKme-kSdFXzCIRaMV4kYchreILRl6izcs-TrvJJCatDPe_vPwJ-wR6Zjk6yHTOXTM767pKfIrjgSGm5iTT5QFzgN6xjheO.jpg?r=06c);
+}
+
+.trending-card2 {
+    background-image: url(https://occ-0-1241-58.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABTixI7Cz0HVkuB1KQvyT9xedX83h2ob_PwNRW74psOcCGFKugKnc9ErhsaNh6JyyjGFS7ZLrxafx7yAkgdqlsT2kP9b0oGHIRnY.jpg?r=a92);
+}
+
+.trending-card3 {
+    background-image: url(https://occ-0-1241-58.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABQEDSaystzESjISVXNUcnidnEvSdMMQ93HP2TjUY4um9PKSsU3h7MTCOR_kADDf0P1YMW3WM02TqEfUTrixH1o4eKw7TDBNZqAV-RLLIvWT7_9gtYUYEGGO-iIsRHet24xzy.jpg?r=14c);
+}
+
+.trending-card4 {
+    background-image: url(https://occ-0-1241-58.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABbZDakL7B7gFm7kcXQq_hxcJuDpHT8ayaajaSyJOeNpfiEIIVlB7P5QvlWStSGL2kfLtPXdhLUUovsIJ3WVtNZlktUfVAMf4R-g.jpg?r=4bd);
+}
+
+.trending-card5 {
+    background-image: url(https://occ-0-1241-58.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABX_xNOTBmGu3FZRr6uHRjt3XCQ0dvrWRpoxG6bM0pvzWyd0RmEM0nE6zC_dL2mSOxnDH35pNkSGSEQImCrYiHvRe83p0HqknTms.jpg?r=de2);
+}
+
+.trending-card6 {
+    background-image: url(https://occ-0-1241-58.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABZyst6jt4Yq-JEjIX8uuXYQ4Qsd_zOsYd6WsuDrpAiw78iqqFZQFjkyU_rl-LyYfrrEc5SD4D4ZWcFt-CwuurxvW_9sW12Z-gf-w_xYcKF7571oLx6v2HrMZzwaojuntQjcy.jpg?r=62a);
+}
+
+.trending-card7 {
+    background-image: url(https://occ-0-1241-58.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABeMsPVZtRQ2Y4CMmfTNSNjL35vBqWZoxDRdC_8uivOUxPZDdHh3wlX09f75GJlGCxmQOio9OeTSk5J1RBMmxdOtJ0QwhWCCqibXAUgMzHoxsFkvSyqPCa8RmPsL_sXcCSutK.jpg?r=3f5);
+}
+
+.trending-card8 {
+    background-image: url(https://occ-0-1241-58.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABUJ0cPZKW1huZ7Hz0b7vgprPyJuogyRdQFE5vV2jWCn3Is8TNaa3RB4pWsIm0ORY6uL7Rg3Pg-8sTgUCg50vy3kB8QlppRLY4L9ku9VyVeaBpOewH4qdgO3WcGODrpk40cnN.jpg?r=c11);
+}
+
+.trending-card9 {
+    background-image: url(https://occ-0-1241-58.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABYTkxcCLllp-YJ2__G76Yg4eva-Qznr3DvkT6HPqh0BKeOa7JH57zs-5p7k8y-ghz2TK9BTFeN3wvRApVUGUTkIj6BKYEUngS3PGkMcy-A4AQJgbk1sY2Kq98iy4_SzMDJt9.jpg?r=5da);
+}
+
+.trending-card10 {
+    background-image: url(https://occ-0-1241-58.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABdtI3qpl44Mqt3cF7fLUeETUD2gmqPcRyZltCa4p2nJhI04eMY8JQ-mP4gqNZEc2ORSotMR3FJgelqWI29fe_k_2c3koayQSnCo.jpg?r=e1d);
 }
 
 
